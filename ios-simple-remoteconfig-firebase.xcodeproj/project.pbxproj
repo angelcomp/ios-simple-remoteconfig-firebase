@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,13 @@
 		892DBC4529E57DEA00D305D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892DBC4329E57DEA00D305D2 /* Main.storyboard */; };
 		892DBC4729E57DEF00D305D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892DBC4629E57DEF00D305D2 /* Assets.xcassets */; };
 		892DBC4A29E57DEF00D305D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892DBC4829E57DEF00D305D2 /* LaunchScreen.storyboard */; };
+		892DBC5229E5864000D305D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 892DBC5129E5864000D305D2 /* GoogleService-Info.plist */; };
+		A23E6834D446F092907A99C0 /* Pods_ios_simple_remoteconfig_firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F87D2E1A177CB9E53F29B7 /* Pods_ios_simple_remoteconfig_firebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26F87D2E1A177CB9E53F29B7 /* Pods_ios_simple_remoteconfig_firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_simple_remoteconfig_firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C23CE7540C8705AE1AACBB5 /* Pods-ios-simple-remoteconfig-firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-simple-remoteconfig-firebase.release.xcconfig"; path = "Target Support Files/Pods-ios-simple-remoteconfig-firebase/Pods-ios-simple-remoteconfig-firebase.release.xcconfig"; sourceTree = "<group>"; };
 		892DBC3A29E57DEA00D305D2 /* ios-simple-remoteconfig-firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-simple-remoteconfig-firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		892DBC3D29E57DEA00D305D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		892DBC3F29E57DEA00D305D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		892DBC4629E57DEF00D305D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		892DBC4929E57DEF00D305D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		892DBC4B29E57DEF00D305D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892DBC5129E5864000D305D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BEF3171710E7B82BF9560F94 /* Pods-ios-simple-remoteconfig-firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-simple-remoteconfig-firebase.debug.xcconfig"; path = "Target Support Files/Pods-ios-simple-remoteconfig-firebase/Pods-ios-simple-remoteconfig-firebase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23E6834D446F092907A99C0 /* Pods_ios_simple_remoteconfig_firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				892DBC3C29E57DEA00D305D2 /* ios-simple-remoteconfig-firebase */,
 				892DBC3B29E57DEA00D305D2 /* Products */,
+				E28F2C9B5B979DE2A444885D /* Pods */,
+				B31851ABA5D58AFFD31494DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,26 @@
 				892DBC4629E57DEF00D305D2 /* Assets.xcassets */,
 				892DBC4829E57DEF00D305D2 /* LaunchScreen.storyboard */,
 				892DBC4B29E57DEF00D305D2 /* Info.plist */,
+				892DBC5129E5864000D305D2 /* GoogleService-Info.plist */,
 			);
 			path = "ios-simple-remoteconfig-firebase";
+			sourceTree = "<group>";
+		};
+		B31851ABA5D58AFFD31494DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F87D2E1A177CB9E53F29B7 /* Pods_ios_simple_remoteconfig_firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E28F2C9B5B979DE2A444885D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEF3171710E7B82BF9560F94 /* Pods-ios-simple-remoteconfig-firebase.debug.xcconfig */,
+				3C23CE7540C8705AE1AACBB5 /* Pods-ios-simple-remoteconfig-firebase.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 892DBC4E29E57DEF00D305D2 /* Build configuration list for PBXNativeTarget "ios-simple-remoteconfig-firebase" */;
 			buildPhases = (
+				4D93FA15CB1360EDD3532330 /* [CP] Check Pods Manifest.lock */,
 				892DBC3629E57DEA00D305D2 /* Sources */,
 				892DBC3729E57DEA00D305D2 /* Frameworks */,
 				892DBC3829E57DEA00D305D2 /* Resources */,
+				0E832BBD20081C52ACCB7045 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +132,7 @@
 				};
 			};
 			buildConfigurationList = 892DBC3529E57DEA00D305D2 /* Build configuration list for PBXProject "ios-simple-remoteconfig-firebase" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -126,12 +155,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				892DBC4A29E57DEF00D305D2 /* LaunchScreen.storyboard in Resources */,
+				892DBC5229E5864000D305D2 /* GoogleService-Info.plist in Resources */,
 				892DBC4729E57DEF00D305D2 /* Assets.xcassets in Resources */,
 				892DBC4529E57DEA00D305D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E832BBD20081C52ACCB7045 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-simple-remoteconfig-firebase/Pods-ios-simple-remoteconfig-firebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-simple-remoteconfig-firebase/Pods-ios-simple-remoteconfig-firebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-simple-remoteconfig-firebase/Pods-ios-simple-remoteconfig-firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D93FA15CB1360EDD3532330 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-simple-remoteconfig-firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		892DBC3629E57DEA00D305D2 /* Sources */ = {
@@ -282,6 +354,7 @@
 		};
 		892DBC4F29E57DEF00D305D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF3171710E7B82BF9560F94 /* Pods-ios-simple-remoteconfig-firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +383,7 @@
 		};
 		892DBC5029E57DEF00D305D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C23CE7540C8705AE1AACBB5 /* Pods-ios-simple-remoteconfig-firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
